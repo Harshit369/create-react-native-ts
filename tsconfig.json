@@ -4,7 +4,7 @@
     "module": "commonjs",
     "jsx": "react-native",
     "outDir": "build",
-    "rootDir": "src",
+    "rootDir": "src/",
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
     "experimentalDecorators": true,
@@ -20,6 +20,6 @@
     "skipLibCheck": true,
     "moduleResolution": "node"
   },
-  "exclude": ["App.js", "App.test.js", "build", "node_modules"],
+  "exclude": ["*.js", "build", "node_modules"],
   "compileOnSave": false
 }
